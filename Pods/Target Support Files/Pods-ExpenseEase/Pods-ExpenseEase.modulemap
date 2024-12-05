@@ -1,0 +1,6 @@
+framework module Pods_ExpenseEase {
+  umbrella header "Pods-ExpenseEase-umbrella.h"
+
+  export *
+  module * { export * }
+}
