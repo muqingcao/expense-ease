@@ -79,7 +79,6 @@ class SignupScreen: UIView {
         textFieldPassword.isSecureTextEntry = true
         textFieldPassword.placeholder = "Password"
         textFieldPassword.autocapitalizationType = .none
-        textFieldPassword.isUserInteractionEnabled = true
         setupTextFieldRoundedCorners(textFieldPassword)
         textFieldPassword.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(textFieldPassword)
